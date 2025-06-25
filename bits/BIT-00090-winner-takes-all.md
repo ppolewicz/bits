@@ -17,7 +17,10 @@ In cooperative validation when a the validation mechanism is slightly noisy, cur
 
 ## Motivation
 
-The most expressive way of showing the difference between client-side WTA and server-side WTA is by using the [yuma-simulator](https://yuma-simulator.bactensor.io/) charts: TODO
+The most expressive way of showing the difference between client-side WTA and server-side WTA is by using the [yuma-simulator](https://yuma-simulator.bactensor.io/) charts:
+
+![Chart showing noisy client-side WTA with dramatic APY drops and broken incentive distribution](img/wta1.png)
+
 
 WTA is not for every subnet. Only a few subnets use this approach, but for those that do, the difference between client-side and server-side is big while the implementation cost is quite small.
 
@@ -66,7 +69,7 @@ Server-side WTA would tally up the results of measurements of all miners by all 
 
 ## Backwards Compatibility
 
-None - those who don't need it just don't enable it.
+No problem - those who don't need it just don't enable it.
 
 
 ## Reference Implementation (Optional)
